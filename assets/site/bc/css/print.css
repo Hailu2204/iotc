@@ -1,0 +1,206 @@
+html,
+body {
+	background: white;
+	font-size: 12px !important;
+}
+@page  
+{ 
+    size: auto;     
+    margin: 25mm 10mm 25mm 15mm;  
+} 
+
+a:link,
+a:visited {
+	color: #666666 !important;
+}
+
+@media print {
+    a:link:after,
+    a:visited:after {
+        content: "" !important;
+    }
+}
+#content a:link:after, #content a:visited:after {    
+  content: " ("attr(href) ") ";    
+  font-size: 90%;   
+}
+
+.productGallery,
+.globalHeader,
+.mainNavigation,
+.breadcrumbs,
+.footerLinks,
+.contactUsBlock,
+.bottomLinks,
+.actionLink,
+.rightPanel,
+.bottomLinks,
+.otherlinksPanel,
+.expandLink,
+.expandControls,
+.footerBottom .anchorLink,
+.row.footer .blockContent,
+.row.footer footer,
+.rightColumn .moreLink,
+.rightColumn .readMore,
+.mainBanner,
+.mixedList,
+.anchorLink.type2,
+.globalPresence img,
+.globalPresence .blockgrid,
+.bandDiv .formDiv,
+.paginationDiv,
+.anchorLink,
+.readMore,
+.hydroListOptions,
+.downloadLink,
+.hydroServices .imgSection,
+.campaignList span.imageHolder,
+.careerKickers,
+.rightColumn  {
+	display: none !important;
+}
+.header {
+	padding-top: 0px;
+}
+ul li {
+	background: none;
+	padding-left: 0;
+}
+.contentDetails .rowBlock {
+	border-bottom-style: solid;
+}
+.expandContent {
+	display: block !important;
+}
+.expandContent ul li {
+	padding-left: 0;
+	background: none!important;
+}
+.row.footerBottom {
+	padding:5px 0;
+}
+.row.footerBottom .copyRights {
+	padding-top: 0px;
+}
+.row.footer,
+.heading,
+.rightColumn .widgetBlock,
+.rightColumn .widgetBlock h2,
+.mainSection .row.pageTitle
+{
+	background: #fff;
+	border-bottom: 0;
+}
+span.imageHolder {
+	border:0;
+}
+.rightColumn .widgetBlock .quoteDiv blockquote {
+	border: 0;
+}
+.tabContent.ourBusiness {
+	display: block !important;
+}
+mainSection .row.pageTitle {
+margin:0;
+padding:0;
+}
+.mainSection .row.pageTitle h1 {
+	margin:5px 0;
+}
+.blueBg2,
+.row,
+.bandDiv,
+.tabsDiv ul li.active,
+.textBlocks ul.blockRow li .contentBlock {
+	background: #fff !important;
+}
+.headerBlock {
+	padding:20px 0;
+}
+.aboutKickers{
+	padding-top: 0;
+}
+.aboutKickers .large-block-grid-3 > li,
+.csrUpdates .large-block-grid-2 > li {
+	float: none;
+	width: 90%;
+	margin-bottom: 10px;
+}
+.aboutKickers .content {
+	padding:12px;
+	min-height: 10px;
+}
+.aboutKickers ul li .content h2 {
+	line-height: 25px;
+	min-height: 15px;
+}
+.aboutKickers ul li .content h2.leadership {
+	padding-bottom: 10px;
+}
+.bandDiv h1 {
+	color:#000;
+}
+.plainContent ul li,
+.productListingDiv .textListProducts ul li ul li {
+	background: none;
+	list-style: disc;
+	padding-left: 5px;
+}
+.rightColumn .widgetBlock .quoteDiv .author {
+	text-align: left;
+	padding:10px 0;
+}
+.aboutKickers .content.type2{
+	min-height: 10px;
+}
+.csrUpdates .content h2 {
+	text-align: left;
+}
+.csrUpdates {
+	padding:10px 0;
+}
+.csrUpdates .content,
+.csr-revamped .content,
+.textBlocks ul.blockRow li .contentBlock,
+.customerSpeak ul li .contentBlock {
+	min-height: 50px;
+	padding:10px 0;
+	border:0;
+}
+.hydroUpstreamWrap {
+	padding-bottom: 10px;
+}
+.hydroServiceWrap .hydroServices .relContent.large-8 {
+	width: 90% !important;
+	float: none !important;
+}
+.expandContent ul, div.relLinks ul,
+.plainContent ul {
+	margin-left: 25px;
+}
+.countries ul .blockContent p {
+	min-height: 10px;
+}
+.campaignList .blockRow .blockContent {
+	padding-bottom: 10px;
+}
+
+.accordion li.accList .accContent, .productGallery {
+    display: block !important;
+}
+
+.logoDiv a[href="/"] {
+    visibility:hidden;
+}
+
+.logoDiv a[href="/"] img {
+    visibility:visible;
+}
+.anchorBand {
+  display:none;
+  border:1px solid #000; 
+}
+ row.pagTitle {
+    display:none;
+}
